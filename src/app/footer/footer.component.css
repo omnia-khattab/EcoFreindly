@@ -1,0 +1,10 @@
+#footer{
+min-height: 30vh;
+min-width: 100%;
+background-color: #fff;
+color:#918f8f;
+}
+#footer .container{
+    height:30vh;
+}
+

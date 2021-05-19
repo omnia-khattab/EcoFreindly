@@ -1,0 +1,7 @@
+.notFound{
+    min-height: 100vh;
+    background:url('/assets/images/404desert_day.jpg');
+        background-size: 100% 100% ;
+        background-position: center;
+        background-repeat: no-repeat;
+}

@@ -1,0 +1,366 @@
+
+.Header{
+    height: 100vh;
+    background:url('/assets/images/37 - header_01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color:#fff;
+}
+.scroll-down{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.scroll-down h6{
+    margin-left: -40px;
+}
+.scroll-down span{
+    display: block;
+    width: 25px;
+    height:25px;
+    border-bottom: 3px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    margin: -20px;
+    animation: animate 3s infinite;
+}
+.scroll-down span:nth-child(2)
+{
+    animation-delay: -0.2s;
+}
+
+@keyframes animate{
+    
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-10px, -10px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+}
+
+/*Content media*/
+.eco-content-media p{
+    line-height: 65px;
+    vertical-align: baseline;
+    letter-spacing: 27px;
+    font-size: 4vw;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: center;
+    text-indent: 0px;
+    font-family: 'Cinzel', serif;
+    
+}
+/*.eco-content-media .video-wrap{
+    margin: auto;
+    width:80%;
+    height:80%;
+}*/
+.eco-content-media .video-wrap .video{
+    display: flex;
+    justify-content: center;
+}
+
+.eco-service .serv-content h4{
+    text-transform: uppercase;
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+.eco-service .serv-content p{
+    line-height: 17px;
+vertical-align: baseline;
+letter-spacing: normal;
+}
+.eco-service .serv-content img{
+    margin: 20px 0;
+}
+
+.eco_insta_section .title,
+.eco-style-material .title{
+    font-size: 3vw ;   
+    line-height: 48px;
+    vertical-align: baseline;
+    letter-spacing: 19px;
+    word-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+.eco_insta_section .insta-slider .content .slider-img img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.eco-style-material .subtitle{
+    line-height: 19px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+}
+.eco-style-material .eco_nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 40px;
+}
+.eco-style-material .eco_nav_list li a{
+    color: #BC9360;
+    border: 2px solid transparent;
+    height: 44px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 22px;
+    padding: 0 15px;
+    margin: 0 26px;
+    font-weight: 500;
+    vertical-align: baseline;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+    position: relative;
+}
+.eco-style-material .eco_nav_list li .active{
+    background-color: transparent !important;
+    border-color: #BC9360;
+}
+
+.eco-style-material .nav_list_wrapper .eco_nav_img img{
+    margin: auto;
+    width:100%;
+    height: 100%;
+}
+.nav_list_wrapper .content-wrapper{
+    background-color: #fff;
+    height: 380px;
+    width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    margin:0 auto;
+}
+.nav_list_wrapper .content-wrapper::before{
+    content: "Eco-Friendly";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg, #92c985 0%, #5aa25d 100%);
+    color: #fff;
+    width:40%;
+    height:6%;
+    line-height: 22px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.nav_list_wrapper .slider-content{
+    margin-top: 50px;
+}
+.nav_list_wrapper .slider-content h5{
+    font-size: 24px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;    
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: rgb(49, 53, 55);
+    font-family: 'Roboto', sans-serif;
+}
+.nav_list_wrapper .slider-content .buy-btn{
+    color: #BC9360;
+    width: 90%;
+    border: 2px solid #BC9360;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.nav_list_wrapper .img-wrapper{
+    width:100%;
+}
+
+/*Section More to come*/
+.more-to-come .more-to-come-img img, .eco-voice-box .eco-voice-box-img img{
+    margin: auto;
+    width:100%;
+    height: 100%;
+}
+/*Section Voice box*/ 
+.eco-voice-box{
+    padding: 100px 0 0 0;
+}
+.eco-voice-box .title{
+    font-size: 54px;
+    line-height: 65px;
+    vertical-align: baseline;
+    letter-spacing: 30px;
+    word-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+/*.eco-voice-box .eco-voice-box-img{
+    height: 70vh;
+    background-image: url('/assets/images/152 - voice_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}*/
+
+.eco-voice-box .owl-carousel .content{
+    background-color: rgba(0, 0, 0, 0.3);
+    width:90%;
+    height:90%;
+    padding: 50px 50px;
+    color: #fff;
+}
+.eco-voice-box  .content-img img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.eco-voice-box .content .content-txt .content-img span{
+line-height: 38px;
+}
+.eco-voice-box{
+    margin-left: 40px;
+}
+.web-view{
+    display: block;
+
+}
+.mobile-view{
+    display: none;
+}
+/*.owl-theme .owl-dots .owl-dot span {
+    background-color: transparent !important;
+}
+.owl-theme .owl-dots .owl-dot .active span{
+    background-color: white !important;
+}*/
+/*.eco-style-material .eco_nav_list li:before {
+    border: 2px solid transparent;
+    border-radius: 22px;
+    content: "";
+    padding: 7px 7px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    pointer-events: none;
+}
+.eco-style-material .eco_nav_list li:before .active{
+    border-color: #BC9360;
+}*/
+
+#contact-us{
+    background-color: #eee;
+    color:#333;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    padding:50px 0;
+}
+.conact a{
+    text-decoration: none;
+    color:#333;
+}
+.contact .newsletter{
+    float: right;
+}
+
+@media screen and (max-width: 850px){
+    .Header{
+        height: 100vh;
+        background:url('/assets/images/38 - header_01.jpg');
+        background-size: 100% 100% ;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .scroll-down{        
+        left: 58%;
+    }
+    .scroll-down h6{
+        margin-left: -40px;
+    }
+    
+    .eco-content-media p,
+    .eco_insta_section .title,
+    .eco-style-material .title,
+    .eco-voice-box .title
+    {
+        line-height: 20px;
+        vertical-align: baseline;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .eco-content-media .video{
+        margin: auto;
+        width:50%;
+        height: 50%;
+    }
+    .eco-voice-box{
+        margin-left: 20px;
+    }
+    .web-view{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .contact-info{
+        text-align: center;
+    }
+    .contact .newsletter{
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .eco-content-media .video-wrap .video video{
+        width:500px;
+        height: 400px;
+    }
+}
